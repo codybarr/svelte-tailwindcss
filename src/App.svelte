@@ -21,8 +21,8 @@
   })
 </script>
 
-<div class="flex align-center justify-center h-screen">
-  <div class="shadow-lg bg-gray-500 text-white p-5">
+<div class="flex align-center justify-center">
+  <div class="shadow-lg bg-gray-800 text-white p-5 mt-5">
     <p>{time}</p>
   </div>
 </div>
