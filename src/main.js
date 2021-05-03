@@ -1,9 +1,10 @@
-import App from './App.svelte'
+import App from './App.svelte';
 
-import 'tailwindcss/tailwind.css'
-
-var app = new App({
+const app = new App({
 	target: document.body,
-})
+	props: {
+		name: 'world'
+	}
+});
 
-export default app
+export default app;
