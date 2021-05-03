@@ -1,6 +1,6 @@
 {
 	"name": "svelte-app",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"private": true,
 	"scripts": {
 		"build:tailwind": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/index.css",
